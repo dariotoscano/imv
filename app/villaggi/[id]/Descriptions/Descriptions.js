@@ -6,9 +6,9 @@ import {useState, useEffect} from "react"
 import classnames from "classnames"
 
 export default function Descriptions({village}) {
+  const [currentItem, setCurrentItem] = useState(0);
   if (village.descriptions.length <= 1) return;
   const descriptions = village.descriptions.filter((c,i) => i > 0);
-  const [currentItem, setCurrentItem] = useState(0);
   return (
     <Section className={styles.section}>
       <ul className={styles.nav}>

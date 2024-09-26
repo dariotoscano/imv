@@ -11,10 +11,10 @@ import {useRef} from 'react'
 import 'swiper/css'
 
 export default function Gallery({village}) {
-  if (village.images.length <= 1) return;
   const images = village.images.filter((c,i) => i > 0);
   const navigationPrevRef = useRef(null)
   const navigationNextRef = useRef(null)
+  if (village.images.length <= 1) return;
   return (
     <Section className={styles.section} title="Gallery" painted>
       <Swiper

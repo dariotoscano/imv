@@ -8,7 +8,7 @@ export default function Home() {
     <Container>
       <div className={styles.villages}>
         {villages.map((v) => (
-          <VillageCard village={v} />
+          <VillageCard key={v.id} village={v} />
         ))}
       </div>
     </Container>
