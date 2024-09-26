@@ -1,0 +1,40 @@
+.section {
+  line-height: 1.2;
+}
+.title {
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 500;
+  margin-bottom: .6em;
+}
+.phone {
+  display: flex;
+  gap: 12px;
+  font-size: 30px;
+  font-weight: 300;
+  color: var(--color-brand);
+  align-items: center;
+  .icon {
+    fill: none;
+    stroke-width: 1px;
+    stroke: currentColor;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    .line {
+      fill: currentColor;
+      stroke: none;
+    }
+  }
+}
+.chat {
+  margin-top: .6em;
+  button {
+    text-decoration: underline;
+  }
+}
+.time {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-top: .8em;
+}

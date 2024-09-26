@@ -1,0 +1,16 @@
+@import "/styles/mixins";
+
+.footer {
+  margin-top: 2rem;
+  background: var(--color-ink);
+  color: #fff;
+  height: 600px;
+  padding-top: 1.75rem;
+}
+
+.logo {
+  display: block;
+  width: 260px;
+  margin-top: 4.5px;
+  color: var(--color-brand);
+}

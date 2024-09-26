@@ -1,0 +1,25 @@
+.section {
+  line-height: 1.2;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 10px 0 hsla(0,0%,51%,.22);
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateY(-100px);
+  transition: transform .3s ease;
+  z-index: 100;
+  &.show {
+    transform: translateY(0);
+  }
+}
+
+.title {
+  font: 31px/1.2 var(--font-display);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

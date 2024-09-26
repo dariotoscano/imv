@@ -1,0 +1,38 @@
+.items {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  grid-gap: 1rem 1.5rem;
+  li {
+    font-weight: 500;
+    line-height: 1.2;
+    .wrap {
+      display: flex;
+      gap: 1em;
+      justify-content: space-between;
+    }
+    .rate {
+      em {
+        font-size: .72em;
+        font-style: normal;
+        font-weight: normal;
+      }
+    }
+    .bar {
+      display: flex;
+      gap: 6px;
+      margin-top: .5em;
+      span {
+        display: block;
+        height: 4px;
+        border-radius: 2px;
+        background: #ebebeb;
+        flex-grow: 1;
+        width: 100%;
+        &.value {
+          background: #b2d573;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}

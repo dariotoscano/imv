@@ -1,0 +1,21 @@
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(12,minmax(0,1fr));
+  grid-gap: 1rem;
+}
+
+.side {
+  grid-column: 9/13;
+  padding-left: 1rem;
+  position: sticky;
+  top: 115px;
+  align-self: flex-start;
+}
+
+.main {
+  grid-column: 1/9;
+  grid-row: 1;
+  margin-right: -1rem;
+  border-right: 1px solid #eee;
+  padding-right: 1rem;
+}

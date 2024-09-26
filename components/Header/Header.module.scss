@@ -1,0 +1,16 @@
+@import "/styles/mixins";
+
+.header {
+  height: 120px;
+  padding-top: 38px;
+  box-shadow: 0 1px 0 0 #eaeaea;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.logo {
+  display: block;
+  width: 260px;
+  margin-top: 4.5px;
+  color: var(--color-brand);
+}

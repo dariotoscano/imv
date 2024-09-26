@@ -1,0 +1,15 @@
+.section {
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+.villages {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  grid-gap: 1rem;
+}

@@ -1,0 +1,70 @@
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(12,minmax(0,1fr));
+  grid-column-gap: 1rem;
+}
+
+.image {
+  grid-column: 6/13;
+  span {
+    background: #eee;
+    display: block;
+    padding-top: 60%;
+    position: relative;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.content {
+  grid-column: 1/6;
+  grid-row: 1;
+  padding-right: .5rem;
+  align-self: center;
+  //font-family: var(--font-display);
+}
+
+.meta {
+  display: flex;
+  gap: 16px;
+  margin-bottom: .8em;
+  .stars {
+    display: flex;
+    color:#FFCA51;
+    gap: 1px;
+    svg {
+      width: 16px;
+      fill: currentColor;
+      stroke-width: 0;
+      stroke-linecap: miter;
+      stroke-linejoin: miter;
+    }
+  }
+  .brand {
+    font-size: 21px;
+    font-weight: 500;
+  }
+}
+
+.city {
+  margin-top: 1em;
+}
+
+.wishlist_button {
+  margin-top: 1.5em;
+  :global(.icon) {
+    width: 27px !important;
+    height: 23px !important;
+    margin-right: 12px !important;
+  }
+}

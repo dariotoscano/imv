@@ -1,0 +1,85 @@
+$cdn: '';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@font-face {
+  font-family: 'Soehne';
+  src: url('#{$cdn}/fonts/soehne-buch.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne';
+  src: url('#{$cdn}/fonts/soehne-buch-kursiv.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne';
+  src: url('#{$cdn}/fonts/soehne-kraftig.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne';
+  src: url('#{$cdn}/fonts/soehne-kraftig-kursiv.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne Breit';
+  src: url('#{$cdn}/fonts/soehne-breit-buch.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/*
+@font-face {
+  font-family: 'Soehne Breit';
+  src: url('#{$cdn}/fonts/soehne-breit-kraftig.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+@font-face {
+  font-family: 'Financier Display';
+  src: url('#{$cdn}/fonts/financier-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+@font-face {
+  font-family: 'Financier Display';
+  src: url('#{$cdn}/fonts/FinancierDisplay-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+/*
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url('#{$cdn}/fonts/ChronicleDisplay-Light.woff2') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Chronicle Display';
+  src: url('#{$cdn}/fonts/ChronicleDisplay-Light.woff2') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*/

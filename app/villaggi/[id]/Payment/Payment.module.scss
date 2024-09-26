@@ -1,0 +1,26 @@
+.section {
+  background: var(--color-brand) !important;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.title {
+  margin-bottom: .5em;
+}
+
+.cards {
+  margin-top: 1.2em;
+  ul {
+    margin-top: .8em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 25px;
+  }
+  li {
+    img {
+      height: 22px;
+    }
+  }
+}

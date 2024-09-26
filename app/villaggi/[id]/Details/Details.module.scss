@@ -1,0 +1,20 @@
+.section {
+  font-size: 15px;
+  h3 {
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: .6em;
+  }
+  p {
+    margin-bottom: .5em;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    li {
+      margin-bottom: .5em;
+    }
+  }
+}

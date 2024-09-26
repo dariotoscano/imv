@@ -1,0 +1,87 @@
+@use 'resets';
+@use 'utils';
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+
+:root {
+  --color-brand: #F74D4D;
+  --color-ink: #292c42;
+}
+
+html {
+  -webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+  background:#fff;
+  color:#323232;
+  font-size: 16px;
+  @include tablet() {
+    font-size: 30px;
+  }
+  @include desktop() {
+    font-size: 40px;
+  }
+}
+
+body {
+  width: 100%;
+  background:#fff;
+  font: 18px/1.55 var(--font-base), sans-serif;
+  font-optical-sizing: auto;
+  color: var(--color-ink);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+.swiper-slide {
+  flex-shrink: 0;
+}
+
+
+.tooltip {
+  font-size: 12px;
+  font-weight: normal;
+  background: #000 !important;
+  max-width: 300px;
+  z-index: 9999;
+  line-height: 1.33;
+  padding: .65em 1em .8em !important;
+}
+
+.feedback-container {
+  top: 1rem !important;
+  bottom: 1rem !important;
+  left: 1rem !important;
+  right: 1rem !important;
+}
+
+.feedback-content {
+  display: flex !important;
+  align-items: center !important;
+  background: rgba(50, 50, 50, 0.64) !important;
+  color: #fff !important;
+  line-height: 1.2 !important;
+  box-shadow: none !important;
+  max-width: 600px !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  font-size: 15px;
+  @include tablet() {
+    padding: 16px !important;
+    border-radius: 16px !important;
+  }
+}
+
+img {
+  font-size: 0;
+}

@@ -1,0 +1,27 @@
+.section {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  background: #fee6cc !important;
+  .wrap {
+    background: url('/img/club-badge.png') no-repeat left center;
+    background-size: 64px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .text {
+    font-weight: 500;
+    padding-left: 84px;
+    flex-grow: 1;
+    line-height: 1.4;
+    strong {
+      font-weight: inherit;
+      color: var(--color-brand);
+    }
+  }
+  .button {
+    flex-shrink: 0;
+  }
+}

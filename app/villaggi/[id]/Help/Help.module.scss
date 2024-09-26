@@ -1,0 +1,51 @@
+.section {
+  margin: 2rem 0;
+  background: #7ddf64;
+  padding: 2rem 0;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  max-width: 700px;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.phone {
+  display: flex;
+  gap: 12px;
+  font-size: 35px;
+  font-weight: 300;
+  align-items: center;
+  .icon {
+    fill: none;
+    stroke-width: 1px;
+    stroke: currentColor;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    transform: scale(1.2);
+    .line {
+      fill: currentColor;
+      stroke: none;
+    }
+  }
+}
+.chat {
+  margin-top: .4em;
+  button {
+    text-decoration: underline;
+  }
+}

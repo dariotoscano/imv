@@ -1,0 +1,10 @@
+@import "/styles/mixins";
+
+.title {
+  font: 57px/1.2 var(--font-display);
+  text-wrap: balance;
+  letter-spacing: -.01em;
+  &.small {
+    font-size: 49px;
+  }
+}
